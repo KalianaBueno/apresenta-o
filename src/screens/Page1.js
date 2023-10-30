@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import { Card } from "../common-components/Card/Card";
 import { HeadingOne } from "../common-components/HeadingOne/HeadingOne";
 import { Lateral } from "../common-components/Lateral/Lateral";
@@ -12,7 +14,9 @@ export function Page1 () {
 		<Lateral>
 			<HeadingOne>Inicie sua apresentação pessoal</HeadingOne>
 
-			<ButtonStart>INICIAR</ButtonStart>
+			<Link to="/sobrevoce/:id">
+ 			 <ButtonStart>INICIAR</ButtonStart>
+			</Link>
 
 		</Lateral>
 

@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import { Card } from "../common-components/Card/Card";
 import { HeadingOne } from "../common-components/HeadingOne/HeadingOne";
 import { Lateral } from "../common-components/Lateral/Lateral";
@@ -12,7 +14,10 @@ export function ThankYou () {
 		<Lateral>
 			<HeadingOne>Você Finalizou! Obrigado!</HeadingOne>
 
+			<Link to="/">
+
 			<ButtonStart>Voltar</ButtonStart>
+			</Link>
 
 		</Lateral>
 

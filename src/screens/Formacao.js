@@ -1,11 +1,12 @@
 import React from 'react';
 import { Button } from "../common-components/Button/Button";
 import { ButtonAdd } from '../common-components/ButtonAdd/ButtonAdd';
-import ButtonCep from "../common-components/ButtonCep/ButtonCep";
 import { Card } from "../common-components/Card/Card";
 import { HeadingOne } from "../common-components/HeadingOne/HeadingOne";
 import { Lateral } from "../common-components/Lateral/Lateral";
 import { TextField } from "../common-components/TextField/TextField";
+import { Link } from 'react-router-dom';
+
 
 
 export function Formacao () {
@@ -40,8 +41,11 @@ export function Formacao () {
 
 		</div>
 
-		
+		<Link to="/experiencia/:id">
+			
 		<Button>Registrar</Button>
+		</Link>
+
 
 		
 

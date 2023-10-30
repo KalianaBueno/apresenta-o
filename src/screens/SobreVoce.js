@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Button } from "../common-components/Button/Button";
 import ButtonCep from "../common-components/ButtonCep/ButtonCep";
 import { Card } from "../common-components/Card/Card";
@@ -26,8 +27,10 @@ export function SobreVoce () {
 
 		</div>
 
-		
+		<Link to="/formacao/:id">
+			
 		<Button>Registrar</Button>
+		</Link>
 
 		
 
